@@ -1,0 +1,139 @@
+body, html{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	/*background-image: linear-gradient(black, #E59649);
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: cover;*/
+}
+
+h1, h4{
+	margin: 0;
+}
+
+.hero-section{
+	position: relative;
+	height: 390px;
+	background-color: black;
+	padding-top: 250px;
+}
+
+.hero-name{
+	color: #E59649;
+	font-weight: bolder;
+	font-size: 250px;
+	letter-spacing: 80px;
+	text-align: center;
+/*	padding-top: 10p;*/
+}
+
+.hero-subname{
+	color: white;
+	letter-spacing: 25px;
+	margin-top: 0; /* Remove space above h4 */
+  margin-bottom: 0; /* Optional: Remove space below h4 if needed */
+  margin-left: 165px;
+  margin-top: -38px;
+  font-size: 45px;
+}
+
+.hero-img{
+	position: absolute;
+	top: 20%;
+	left: 40%;
+}
+
+.hero-number{
+	position: absolute;
+	font-size: 380px;
+	color: #E59649;
+	font-weight: bolder;
+	left: 64%;
+	top: -1%;
+	opacity: 0.2;
+}
+
+.container{
+/*	margin-top: 50px;*/
+}
+
+.about{
+	position: relative;
+	background-color: #E59649;
+	height: 500px;
+}
+
+.lesson{
+	position: relative;
+	background-color: black;
+	height: 500px;
+}
+
+.about-name{
+	color: white;
+	letter-spacing: 15px;
+/*	font-weight: bolder;*/
+	font-size: 100px;
+	padding-top: 100px;
+  margin-left: 80px;
+}
+
+.about-subname{
+	color: white;
+	letter-spacing: 7px;
+	font-size: 25px;
+	margin-top: 0; /* Remove space above h4 */
+  margin-bottom: 0; /* Optional: Remove space below h4 if needed */
+  margin-left: 80px;
+}
+
+.about-desc{
+	color: white;
+  margin-left: 80px;
+  width: 60%;
+	line-height: 35px;
+}
+
+.about-img{
+	position: absolute;
+	top: 1%;
+	left: 70%;
+	height: 100%;
+}
+
+.lesson-name{
+	color: white;
+	letter-spacing: 5px;
+	font-size: 100px;
+	padding-top: 100px;
+  margin-right: 220px;
+	text-align: right;
+}
+
+.lesson-desc{
+	color: white;
+	letter-spacing: 5px;
+/*	font-size: 100px;*/
+/*	padding-top: 100px;*/
+  margin-left: 460px;
+  width: 55%;
+	line-height: 30px;
+	text-align: right;
+}
+
+
+.lesson-img{
+	position: absolute;
+	height: 90%;
+	left: 6%;
+	top: 10%;
+}
+
+.footer{
+	background-color: black;
+	color: gray;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 10px;
+}
